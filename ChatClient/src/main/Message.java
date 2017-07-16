@@ -18,4 +18,7 @@ public class Message {
 	public long getUnixTimeStamp() {
 		return unixTimeStamp;
 	}
+	public String toString() {
+		return "From: " + author + "\n" + "Sent at: " + unixTimeStamp + "\n" + "Message: " + text;
+	}
 }
